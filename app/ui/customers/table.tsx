@@ -1,10 +1,8 @@
 import Image from "next/image";
-import Search from "@/app/ui/search";
-import {
-  CustomersTableType,
-  FormattedCustomersTable,
-} from "@/app/lib/definitions";
+
 import { lusitana } from "../font";
+import Search from "../search";
+import { FormattedCustomersTable } from "@/app/lib/definitions";
 
 export default async function CustomersTable({
   customers,
